@@ -1,8 +1,6 @@
-def greeting(name):
-    name = input("What is your name? ")
-    if name == input(name):
-      return("Hello," + name + "!" )
+def greet(name):
+    print(f'Hello {name}')
+
       
-      
-print(greeting)
+
 
